@@ -15,6 +15,7 @@ checkButton.addEventListener("click", () => {
     } else if (inputNumber == randomNumber) {
         textArea.innerHTML = "CONGRATULATIONS! You win"
         checkButton.innerHTML = "RESET"
+        counter += 1
         checkButton.addEventListener("click", () => {
             window.location.reload();
         })
