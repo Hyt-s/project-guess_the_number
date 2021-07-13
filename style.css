@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 820px;
+    background-image: linear-gradient(red,yellow,green);
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#head1 {
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+#guess {
+    border: 2px solid brown;
+    border-radius: 1em;
+}
+
+#check {
+    border: 2px solid darkblue;
+    border-radius: 0.5rem;
+    padding: 2px;
+    background-color: blue;
+    color: white;
+}
+
+#check:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#image {
+    width: 15rem;
+    height: 10rem;
+    border-radius: 1rem;
+    margin-top: 5rem;
+}
+
+#head2 {
+    padding-top: 2rem;
+}
+
+#hidden {
+    font-size: 17px;
+    color: blue;
+}
